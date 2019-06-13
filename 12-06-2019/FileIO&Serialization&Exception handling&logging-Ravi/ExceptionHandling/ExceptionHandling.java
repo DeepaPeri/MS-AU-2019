@@ -1,8 +1,4 @@
-/* Create a new Java project. Write a code which
-generates the following exceptions:
-ArithmeticException,
-ArrayIndexOutOfBoundsException and
-FileNotFoundException */
+
 import java.io.*;
 import java.util.logging.*;
 public class ExceptionHandling{
