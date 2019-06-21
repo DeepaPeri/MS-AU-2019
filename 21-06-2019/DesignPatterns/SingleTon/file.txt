@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-21T10:38:50.521967900Z</date>
+  <millis>1561113530521</millis>
+  <nanos>967900</nanos>
+  <sequence>0</sequence>
+  <logger>clientLogger</logger>
+  <level>INFO</level>
+  <class>com.accolite.Logger.SingletonLogger</class>
+  <method>registerStudent</method>
+  <thread>1</thread>
+  <message>Registered student named: Deepa</message>
+</record>
+<record>
+  <date>2019-06-21T10:38:50.574550200Z</date>
+  <millis>1561113530574</millis>
+  <nanos>550200</nanos>
+  <sequence>1</sequence>
+  <logger>clientLogger</logger>
+  <level>INFO</level>
+  <class>com.accolite.Logger.SingletonLogger</class>
+  <method>getStudent</method>
+  <thread>1</thread>
+  <message> student name: Deepa</message>
+</record>
+<record>
+  <date>2019-06-21T10:38:50.575547300Z</date>
+  <millis>1561113530575</millis>
+  <nanos>547300</nanos>
+  <sequence>2</sequence>
+  <logger>clientLogger</logger>
+  <level>INFO</level>
+  <class>com.accolite.Logger.SingletonLogger</class>
+  <method>removeStudent</method>
+  <thread>1</thread>
+  <message>Removed student named: Deepa</message>
+</record>
+<record>
+  <date>2019-06-21T10:38:50.576545800Z</date>
+  <millis>1561113530576</millis>
+  <nanos>545800</nanos>
+  <sequence>3</sequence>
+  <logger>clientLogger</logger>
+  <level>INFO</level>
+  <class>com.accolite.Logger.SingletonLogger</class>
+  <method>getStudent</method>
+  <thread>1</thread>
+  <message> student name: </message>
+</record>
+</log>
