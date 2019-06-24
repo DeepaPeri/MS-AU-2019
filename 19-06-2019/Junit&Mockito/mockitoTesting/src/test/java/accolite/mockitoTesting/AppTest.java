@@ -65,17 +65,17 @@ public class AppTest
 	        this.expectedResult = expectedResult;
 	    }
 	     
-//	    @Test
-//	    public void saveTest() throws IOException
-//	    {
-//	        boolean saved = storeService.save("AppTest.java");
-//	        assertEquals(true, saved);
-//	         
-//	        verify(databaseMock, times(1)).save("AppTest.java");
-//	        File f = null;
-//			verify(networkMock, times(1)).save("server", "user","password", "deepa.txt", f );
-//	    }
-//	    
+	    @Test
+	    public void saveTest() throws IOException
+	    {
+	        boolean saved = storeService.save("AppTest.java");
+	        assertEquals(true, saved);
+	         
+	        verify(databaseMock, times(1)).save("AppTest.java");
+	        File f = null;
+			verify(networkMock, times(1)).save("server", "user","password", "deepa.txt", f );
+	    }
+	    
 	    
 	    @Parameters
 	    public static Collection<Object[]> id() {
